@@ -157,7 +157,8 @@ public class Game {
             (grid[0][0] == 'x' && grid[1][0] == 'x' && grid[2][0] == 'x' ) ||
             (grid[0][1] == 'x' && grid[1][1] == 'x' && grid[2][1] == 'x' ) ||
             (grid[0][2] == 'x' && grid[1][2] == 'x' && grid[2][2] == 'x' ) ||
-            (grid[0][0] == 'x' && grid[1][1] == 'x' && grid[2][2] == 'x' ) )
+            (grid[0][0] == 'x' && grid[1][1] == 'x' && grid[2][2] == 'x' ) ||
+            (grid[0][2] == 'x' && grid[1][1] == 'x' && grid[2][0] == 'x' ) )
         {
             return "X wins";
         }
@@ -167,7 +168,8 @@ public class Game {
                 (grid[0][0] == 'o' && grid[1][0] == 'o' && grid[2][0] == 'o' ) ||
                 (grid[0][1] == 'o' && grid[1][1] == 'o' && grid[2][1] == 'o' ) ||
                 (grid[0][2] == 'o' && grid[1][2] == 'o' && grid[2][2] == 'o' ) ||
-                (grid[0][0] == 'o' && grid[1][1] == 'o' && grid[2][2] == 'o' ) )
+                (grid[0][0] == 'o' && grid[1][1] == 'o' && grid[2][2] == 'o' ) ||
+                (grid[0][2] == 'o' && grid[1][1] == 'o' && grid[2][0] == 'o' ) )
         {
             return "O wins";
         }

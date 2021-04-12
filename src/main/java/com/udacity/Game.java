@@ -181,7 +181,7 @@ public class Game {
                     return  result;
             }
         }
-        return "Tie";    //When nither side wind it will be a tie
+        return "Tie";    //When nither side wind it will be a tie.
     }
 
     /**
